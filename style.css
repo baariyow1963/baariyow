@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(nasheed.jpg);
+    background-size: 9% ;
+    background-repeat: no-repeat;
+    background-position-x: 1%;
+    background-position-y: 1%;
+}
+header {
+    color: rgb(7 1 150);
+    padding: 30px 0px 10px 75px;
+}
+article{
+    width: 30%;
+    float: left;
+    text-align: center;
+    
+    margin: 10px;
+}
+#h1{
+    text-align: left;
+    background: #b91e3e;
+    width: 98%;
+    color: white;
+}
+#h2{
+    text-align: left;
+    background: #0e586f;
+    width: 98%;
+    color: white;
+}
+#h3{
+    text-align: left;
+    background: #323f44;
+    width: 98%;
+    color: white;
+}
+#h4{
+    text-align: left;
+    background: #446986;
+    width: 98%;
+    color: white;
+}
+#h5{
+    text-align: left;
+    background: #db3e36e6;
+    width: 98%;
+    color: white;
+}
+#img1{
+    height: 170px;
+    width: 96%;
+}
+@media (max-width: 950px) and (min-width: 750px) {
+    body{
+        background-size: 9% ;
+    }
+    article{
+        width: 40%; 
+    }
+
+}
+@media (max-width: 750px){
+    body{
+        background-size: 11% ;
+    }
+    article{
+        width: 50%; 
+    }
+    article img{
+        width: 100%;
+    }
+    article audio{
+        float: left;
+        width: 98%;
+    }
+}
+@media (max-width: 600px){
+    body{
+        background-size: 14% ;
+    }
+    article{
+        width: 50%; 
+    }
+    article img{
+        width: 100%;
+    }
+    article audio{
+        float: left;
+        width: 98%;
+    }
+}
